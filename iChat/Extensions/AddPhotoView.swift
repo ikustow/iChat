@@ -25,7 +25,7 @@ class AddPhotoView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         let myImage = #imageLiteral(resourceName: "plus")
         button.setImage(myImage, for: .normal)
-        button.tintColor = .buttonBlack()
+        button.tintColor = .buttonDark()
         return button
     }()
     
